@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
+  { href: "/", label: "Home" },
   { href: "/#departments", label: "Departments" },
   { href: "/services", label: "Our Services" },
   { href: "/#network", label: "Our Network" },
@@ -28,7 +29,7 @@ export default function Header({
               alt="UMANG Hospital"
               width={140}
               height={48}
-              className="h-10 w-auto sm:h-12"
+              className="h-10 w-auto sm:h-18"
             />
           </Link>
           <div className="flex flex-wrap items-center justify-start gap-4 text-xs text-[#16355A] sm:justify-end sm:gap-6 sm:text-sm md:gap-8">
