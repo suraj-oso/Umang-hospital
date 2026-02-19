@@ -18,7 +18,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://umanghospital.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://umang-hospital.vercel.app/";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
