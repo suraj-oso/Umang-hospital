@@ -196,7 +196,7 @@ export default function Footer() {
             </div>
             <div>
               <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-[#699C78]">OFFICE</h3>
-              <p className="text-sm leading-relaxed text-justify text-white/90">
+              <p className="text-sm leading-relaxed text-white/90">
                 In front of Rani Sati Mandir, Gaurav Path-Ring Road-2, Bilaspur,
                 Chhattisgarh 495001
               </p>
