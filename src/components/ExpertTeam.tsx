@@ -26,10 +26,10 @@ export default function ExpertTeam() {
   return (
     <section className="border-t border-gray-200 bg-gray-50/50 py-10 sm:py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="text-center text-xs font-semibold uppercase tracking-wider text-gray-500">
+        <p className="text-center text-xs font-semibold uppercase tracking-wider text-[var(--umang-navy)]">
           OUR SPECIALISTS
         </p>
-        <h2 className="mt-2 text-center text-2xl font-bold text-[#1e3a5f] sm:text-3xl md:text-4xl">
+        <h2 className="mt-2 text-center text-2xl font-bold text-[var(--umang-navy)] sm:text-3xl md:text-4xl">
           Meet Our Expert Team
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-gray-600 sm:mt-4 sm:text-base">

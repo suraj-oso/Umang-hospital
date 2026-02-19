@@ -37,7 +37,7 @@ export default function AboutUs() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-2 sm:gap-4 lg:grid-cols-2 lg:gap-8">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-gray-500">
+            <p className="text-xs font-semibold uppercase tracking-wider text-[var(--umang-navy)]">
               ABOUT US
             </p>
             <h2 className="mt-2 text-2xl font-bold sm:text-3xl md:text-4xl">

@@ -18,10 +18,68 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://umanghospital.com";
+
 export const metadata: Metadata = {
-  title: "UMANG Hospital | Best IVF Center & Super Specialty Hospital in Bilaspur",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "UMANG Hospital | Best IVF Center & Super Specialty Hospital in Bilaspur",
+    template: "%s | UMANG Hospital",
+  },
   description:
     "Umang IVF & Super Specialty Hospital, Bilaspur. Advanced fertility, gynecology, plastic surgery, hair transplant, cardiology. NABH certified. Book an appointment.",
+  keywords: [
+    "IVF center Bilaspur",
+    "super specialty hospital Bilaspur",
+    "Umang Hospital",
+    "fertility treatment Chhattisgarh",
+    "NABH certified hospital",
+    "plastic surgery",
+    "cardiology",
+    "gynecology",
+    "hair transplant Bilaspur",
+  ],
+  authors: [{ name: "UMANG Hospital", url: SITE_URL }],
+  creator: "UMANG Hospital",
+  publisher: "UMANG Hospital",
+  formatDetection: { email: false, address: false, telephone: false },
+  icons: {
+    icon: "/images/uamng-final.svg",
+    shortcut: "/images/uamng-final.svg",
+    apple: "/images/uamng-final.svg",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: SITE_URL,
+    siteName: "UMANG Hospital",
+    title: "UMANG Hospital | Best IVF Center & Super Specialty Hospital in Bilaspur",
+    description:
+      "Umang IVF & Super Specialty Hospital, Bilaspur. Advanced fertility, gynecology, plastic surgery, hair transplant, cardiology. NABH certified. Book an appointment.",
+    images: [
+      {
+        url: "/images/uamng-final.svg",
+        width: 512,
+        height: 512,
+        alt: "UMANG Hospital - IVF & Super Speciality Centre",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UMANG Hospital | Best IVF Center & Super Specialty Hospital in Bilaspur",
+    description:
+      "Umang IVF & Super Specialty Hospital, Bilaspur. Advanced fertility, gynecology, plastic surgery, hair transplant, cardiology. NABH certified.",
+    images: ["/images/uamng-final.svg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  verification: {
+    // Add when you have them: google: "google-site-verification-code", yandex: "yandex-verification-code"
+  },
 };
 
 export default function RootLayout({

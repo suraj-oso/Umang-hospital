@@ -7,7 +7,7 @@ export default function DoctorProfileHero({ doctor }: Props) {
   const subtitle = `${doctor.role} at Umang IVF & Super Speciality Hospital, Bilaspur`;
 
   return (
-    <section className="bg-[#1e3a5f] px-4 pt-12 pb-10 sm:px-6 sm:pt-16 sm:pb-12 md:pt-20 md:pb-16 lg:px-8 lg:pt-24">
+    <section className="bg-[var(--umang-navy)] px-4 pt-12 pb-10 sm:px-6 sm:pt-16 sm:pb-12 md:pt-20 md:pb-16 lg:px-8 lg:pt-24">
       <div className="mx-auto max-w-7xl">
         <nav className="mb-3 text-xs text-white/90 sm:mb-4 sm:text-sm" aria-label="Breadcrumb">
           <ol className="flex flex-wrap items-center gap-1.5">
