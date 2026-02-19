@@ -59,8 +59,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/uamng-final.svg",
-        width: 250,
-        height: 250,
+        width: 50,
+        height: 50,
         alt: "UMANG Hospital - IVF & Super Speciality Centre",
       },
     ],
