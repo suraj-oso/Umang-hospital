@@ -19,7 +19,7 @@ export default function WhenToConsult() {
           <div className="bg-white px-4 py-6 sm:px-6 sm:py-8">
             <ul className="space-y-2.5 sm:space-y-3">
               {items.map((item, i) => (
-                <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700 sm:gap-3 sm:text-base">
+                <li key={i} className="flex items-start gap-2.5 text-sm text-justify text-gray-700 sm:gap-3 sm:text-base">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gray-500" />
                   {item}
                 </li>

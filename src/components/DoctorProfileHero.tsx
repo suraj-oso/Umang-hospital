@@ -29,7 +29,7 @@ export default function DoctorProfileHero({ doctor }: Props) {
         <h1 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
           {doctor.name}
         </h1>
-        <p className="mt-3 max-w-4xl text-base leading-relaxed text-white/95 sm:mt-4 sm:text-lg">
+        <p className="mt-3 max-w-4xl text-base leading-relaxed text-justify text-white/95 sm:mt-4 sm:text-lg">
           {subtitle}
         </p>
       </div>

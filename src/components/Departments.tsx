@@ -18,7 +18,7 @@ export default function Departments() {
           <h2 className="text-2xl font-bold text-[var(--umang-navy)] sm:text-3xl md:text-4xl">
             Explore all departments
           </h2>
-          <p className="text-sm text-gray-700 sm:text-base">
+          <p className="text-sm text-justify text-gray-700 sm:text-base">
             <span className="text-[var(--umang-green)]">
               Umang IVF And Superspeciality Hospital, Bilaspur Is A Leading Healthcare Center,{" "}
             </span>
@@ -36,7 +36,7 @@ export default function Departments() {
               />
               <div className="dept-card-content">
                 <h3 className="text-sm font-bold text-[var(--umang-navy)] sm:text-base">{dept.title}</h3>
-                <p className="mt-1.5 text-xs leading-relaxed text-[#4A4A4A] sm:mt-2 sm:text-sm">
+                <p className="mt-1.5 text-xs leading-relaxed text-justify text-[#4A4A4A] sm:mt-2 sm:text-sm">
                   {dept.description}
                 </p>
               </div>

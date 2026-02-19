@@ -67,7 +67,7 @@ export default function DoctorProfileView({ doctor }: Props) {
             <h2 id="about-heading" className="text-lg font-bold text-[var(--umang-navy)] sm:text-xl">
               About {doctor.name}
             </h2>
-            <p className="mt-3 leading-relaxed text-gray-700 sm:text-base">{doctor.about}</p>
+            <p className="mt-3 leading-relaxed text-justify text-gray-700 sm:text-base">{doctor.about}</p>
           </section>
 
           {/* Areas of expertise */}
@@ -94,7 +94,7 @@ export default function DoctorProfileView({ doctor }: Props) {
             <section className="rounded-lg bg-[#1e3a5f] p-6 text-white">
               <h3 className="text-lg font-bold sm:text-xl">{doctor.department}</h3>
               {doctor.departmentDescription && (
-                <p className="mt-2 text-sm leading-relaxed text-white/95 sm:text-base">
+                <p className="mt-2 text-sm leading-relaxed text-justify text-white/95 sm:text-base">
                   {doctor.departmentDescription}
                 </p>
               )}
@@ -116,7 +116,7 @@ export default function DoctorProfileView({ doctor }: Props) {
             <h3 className="text-lg font-bold text-[var(--umang-navy)]">
               Book Appointment with {doctor.name.split(" ").slice(1).join(" ").replace("Dr. ", "")}
             </h3>
-            <p className="mt-2 text-sm text-gray-600">
+            <p className="mt-2 text-sm text-justify text-gray-600">
               Schedule a consultation at Umang Hospital, Bilaspur.
             </p>
             <div className="mt-4 space-y-3">
@@ -139,7 +139,7 @@ export default function DoctorProfileView({ doctor }: Props) {
                 <span aria-hidden>✉</span> Email for Appointment
               </a>
             </div>
-            <p className="mt-4 flex items-start gap-2 text-xs text-gray-600">
+            <p className="mt-4 flex items-start gap-2 text-xs text-justify text-gray-600">
               <span aria-hidden>📍</span>
               {HOSPITAL_ADDRESS}
             </p>

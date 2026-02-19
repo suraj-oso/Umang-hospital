@@ -20,7 +20,11 @@ export default function DoctorHero() {
         <h1 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">
           Our Expert Doctors
         </h1>
-        <p className="mt-3 max-w-4xl text-base leading-relaxed text-white/95 sm:mt-4 sm:text-lg">
+        <p className="mt-3 max-w-4xl text-base leading-relaxed text-justify text-white/95 sm:mt-4 sm:text-lg">
+          Physician leads with expert care and compassion, improving health in every step we take.
+          Our team brings new ideas, tools, and heart to ensure every patient is heard and helped.
+        </p>
+        <p className="mt-2 max-w-4xl text-base leading-relaxed text-justify text-white/90 sm:mt-3 sm:text-lg">
           Senior Consultants & Specialists at Umang IVF & Super Speciality Hospital, Bilaspur. Our
           board-certified team brings decades of experience in IVF, Plastic Surgery, Cardiology,
           Urology, and more.

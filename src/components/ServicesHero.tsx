@@ -18,7 +18,7 @@ export default function ServicesHero({
           <span className="text-[#FFFFFF]">Service Page</span>
         </nav>
         <h1 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl">{title}</h1>
-        <p className="mt-3 max-w-5xl text-base leading-relaxed text-white/95 sm:mt-4 sm:text-lg">{subtitle}</p>
+        <p className="mt-3 max-w-5xl text-base leading-relaxed text-justify text-white/95 sm:mt-4 sm:text-lg">{subtitle}</p>
       </div>
     </section>
   );

@@ -35,7 +35,7 @@ export default function AboutUs() {
   return (
     <section id="about" className="bg-white py-12 sm:py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
+        <div className="grid gap-2 sm:gap-4 lg:grid-cols-2 lg:gap-8">
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-gray-500">
               ABOUT US
@@ -44,14 +44,14 @@ export default function AboutUs() {
               <span className="text-[var(--umang-navy)]">Bilaspur&apos;s Premier IVF & </span>
               <span className="text-[var(--umang-green)]">Super Specialty Hospital</span>
             </h2>
-            <p className="mt-3 text-sm leading-relaxed text-gray-700 sm:mt-4 sm:text-base">
+            <p className="mt-3 text-sm leading-relaxed text-justify text-gray-700 sm:mt-4 sm:text-base">
               Umang IVF & Super Specialty Hospital Has Been Serving The People Of Bilaspur And
               Chhattisgarh With Dedication And Compassion. As The Region&apos;s Leading IVF Center
               And Super Specialty Hospital, We Combine Cutting-Edge Technology With Personalized Care
               — From Advanced Fertility Treatment, Cosmetic Surgery To Cardiology, Urology, And 24/7
               Emergency Services.
             </p>
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-4 space-y-2 sm:mt-6 sm:space-y-3">
               {features.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[var(--umang-navy)] text-sm font-bold text-white">
@@ -62,8 +62,8 @@ export default function AboutUs() {
               ))}
             </ul>
           </div>
-          <div className="relative flex justify-center lg:justify-end lg:items-center">
-            <div className="relative h-[260px] w-[260px] sm:h-[320px] sm:w-[320px] md:h-[400px] md:w-[320px] lg:h-[500px] lg:w-[350px]">
+          <div className="relative flex justify-center my-12 lg:justify-end lg:items-center">
+            <div className="relative h-[550px] w-[380px] sm:h-[260px] sm:w-[260px] md:h-[400px] md:w-[320px] lg:h-[500px] lg:w-[350px]">
               <div
                 className="h-full w-full"
                 style={{
@@ -72,20 +72,20 @@ export default function AboutUs() {
                   backgroundPosition: "center",
                 }}
               />
-              <div className="absolute left-2 top-2 z-10 md:left-4 md:top-4">
+              <div className="absolute left-4 top-3 z-10 md:left-4 md:top-4">
                 <Image
                   src="/images/15plus-ex-img.svg"
                   alt="15+ years experience"
                   width={100}
                   height={100}
-                  className="h-20 w-auto md:h-24"
+                  className="h-28 w-auto md:h-24"
                 />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="about-us-cards mt-14 grid grid-cols-1 border-b border-gray-200 sm:mt-20 sm:grid-cols-2 sm:border-2 sm:border-gray-200 lg:grid-cols-4">
+        <div className="about-us-cards mt-4 grid grid-cols-1 border-b border-gray-200 sm:mt-8 sm:grid-cols-2 sm:border-2 sm:border-gray-200 md:mt-12 lg:mt-20 lg:grid-cols-4">
           {services.map((s, i) => (
             <div
               key={i}
@@ -101,7 +101,7 @@ export default function AboutUs() {
                 />
               </div>
               <h3 className="mt-4 text-xl font-bold text-[var(--umang-navy)]">{s.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-gray-500">{s.description}</p>
+              <p className="mt-2 text-sm leading-relaxed text-justify text-gray-500">{s.description}</p>
             </div>
           ))}
         </div>

@@ -11,7 +11,7 @@ export default function DoctorNotFound() {
           <h1 className="text-2xl font-bold text-[var(--umang-navy)] sm:text-3xl">
             Doctor not found
           </h1>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-justify text-gray-600">
             The doctor profile you&apos;re looking for doesn&apos;t exist or may have been moved.
           </p>
           <Link

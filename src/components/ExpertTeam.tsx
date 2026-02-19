@@ -93,7 +93,7 @@ export default function ExpertTeam() {
                   )}
 
                   {/* About (truncated) */}
-                  <p className="mt-3 line-clamp-2 text-xs leading-relaxed text-gray-600 sm:line-clamp-3">
+                  <p className="mt-3 line-clamp-2 text-xs leading-relaxed text-justify text-gray-600 sm:line-clamp-3">
                     {doc.about}
                   </p>
 

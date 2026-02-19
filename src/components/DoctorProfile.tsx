@@ -46,8 +46,8 @@ export default function DoctorProfile() {
               <span className="font-semibold text-[var(--umang-navy)]">Qualifications: </span>
               <span className="text-[var(--umang-navy)]">{doctor.qualification}</span>
             </p>
-            <p className="mt-4 leading-relaxed text-[var(--umang-navy)] sm:mt-6 sm:text-base">{doctor.about}</p>
-            <p className="mt-4 leading-relaxed text-[var(--umang-navy)] sm:mt-6 sm:text-base">{doctor.specializations}</p>
+            <p className="mt-4 leading-relaxed text-justify text-[var(--umang-navy)] sm:mt-6 sm:text-base">{doctor.about}</p>
+            <p className="mt-4 leading-relaxed text-justify text-[var(--umang-navy)] sm:mt-6 sm:text-base">{doctor.specializations}</p>
             <Link
               href="#appointment"
               className="mt-6 inline-flex w-fit items-center justify-center rounded-lg bg-[var(--umang-navy)] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#1e3a8a] sm:mt-8 sm:px-8 sm:py-3.5 sm:text-base"

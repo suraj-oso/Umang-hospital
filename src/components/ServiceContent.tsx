@@ -16,7 +16,7 @@ export default function ServiceContent() {
         style={{ backgroundImage: "url(/images/ivf-img.svg)" }}
       />
       <div className="space-y-4 text-[var(--umang-navy)] sm:space-y-6">
-        <p className="text-sm leading-relaxed sm:text-base">
+        <p className="text-sm leading-relaxed text-justify sm:text-base">
           At Umang IVF & Super Speciality Hospital, Our Plastic Surgery Department Is Led By
           Experienced, Board-Certified Plastic Surgeons Who Combine Artistic Vision With Surgical
           Precision. We Offer A Comprehensive Range Of Cosmetic Procedures Including Rhinoplasty
@@ -26,7 +26,7 @@ export default function ServiceContent() {
           Reconstructive Surgery Services Address Burns, Trauma Scars, Congenital Deformities Like
           Cleft Lip And Palate, And Post-Cancer Reconstruction.
         </p>
-        <p className="text-sm leading-relaxed sm:text-base">
+        <p className="text-sm leading-relaxed text-justify sm:text-base">
           We Use Advanced Microsurgical Techniques For Optimal Outcomes. Patient Safety Is Our Top
           Priority. Every Procedure Begins With A Thorough Consultation Where We Discuss Realistic
           Expectations, Surgical Options, Risks, And Recovery. We Use The Latest Minimally Invasive

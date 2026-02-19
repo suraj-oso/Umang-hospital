@@ -63,7 +63,7 @@ export default function PatientStories() {
             </h2>
           </div>
           <div className="md:col-span-2">
-            <p className="text-sm text-gray-600 sm:text-base">
+            <p className="text-sm text-justify text-gray-600 sm:text-base">
               Physician leads with expert care and compassion, improving health in every step we
               take. Our team brings new ideas, tools, and heart to ensure every patient is heard
               and helped.
@@ -82,7 +82,7 @@ export default function PatientStories() {
               className="min-w-[280px] max-w-[320px] shrink-0 rounded-xl bg-[#f8f7fa] p-5 shadow-sm sm:min-w-[320px] sm:max-w-[360px] sm:p-6"
             >
               <StarRating rating={t.rating} />
-              <blockquote className="mt-3 text-sm italic leading-relaxed text-[#1e293b] sm:mt-4 sm:text-base">
+              <blockquote className="mt-3 text-sm italic leading-relaxed text-justify text-[#1e293b] sm:mt-4 sm:text-base">
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
               <div className="mt-4 flex items-center gap-3 sm:mt-6">
