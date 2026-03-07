@@ -8,7 +8,7 @@ import { heroService } from "@/services/hero.service";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/#about", label: "About Us" },
+  { href: "/about", label: "About Us" },
   { href: "/#departments", label: "Departments" },
   { href: "/services", label: "Our Services" },
   { href: "/#network", label: "Our Network" },
@@ -90,6 +90,7 @@ export default function Header({
               key={i}
               href={link.href}
               className={`text-sm font-semibold text-[#16355A] hover:text-(--umang-green) sm:text-base ${
+                (currentPath === "/about" && link.href === "/about")||
                 (currentPath === "/services" && link.href === "/services") ||
                 (currentPath === "/doctors" && link.href === "/doctors") ||
                 (currentPath === "/contact" && link.href === "/contact") ||
